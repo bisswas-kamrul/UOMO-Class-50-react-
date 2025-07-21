@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* google font */
+  --font-HeaderText: "Jost", sans-serif; 
+  --font-ShopTBennarText: "Bungee Outline", sans-serif; 
+  /* google font */
+  /* color */
+   --color-HeadrColor: #222222; 
+   --color-VennarTextColor: #C32929; 
+   --color-FuttorbgColor: #CFCDCD; 
+  /* color */
+}
+
+.slick-prev{
+  background: transparent !important;
+ left:  25px !important;
+ z-index: 10 !important;
+
+}
+.slick-prev::before{
+  color: black !important;
+  font-size: 30px !important;
+}
+.slick-next{
+  background: transparent !important;
+  right: 25px !important;
+}
+.slick-next::before{
+  color: black !important;
+  font-size: 30px !important;
+}
